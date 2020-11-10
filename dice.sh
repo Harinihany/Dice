@@ -1,6 +1,11 @@
 #! /bin/bash -x
 
 dicenum=$(( RANDOM%6 +1 ))
-case $dice num in
-	echo "first face"
+case $dicenum in
+	1) echo "first face"
+		;;
+
+	2) echo "second face"
+		;;
+		
 
